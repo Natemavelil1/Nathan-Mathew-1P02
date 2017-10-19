@@ -1,0 +1,13 @@
+#header {background-color: red; height: 100px}
+
+#content1 {background-color: pink; height: 100px; width: 300px; float: left; left: 600px}
+
+#content2 {background-color: orange; height: 100px; width: 900px; float: left; left: 800px}
+
+#content3 {background-color: blue; height: 550px;}
+
+#footer {background-color: yellow; height: 100px}
+
+#wrapper {background-color: green; width: 1200px; margin: 0 auto;}
+
+body {background-color: green}
