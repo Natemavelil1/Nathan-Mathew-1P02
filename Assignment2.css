@@ -1,0 +1,5 @@
+.textsize {font-size: 30px; position: relative; left: 200px; font-family: helvetica}
+.textcolor p{color: lightslategrey;}
+.texttransform {text-transform: uppercase; font-size: 20px; position: fixed;}
+.texttransform2 {text-transform: uppercase; font-size: 20px; position: absolute;}
+h1,h2,h3 {color: black}
