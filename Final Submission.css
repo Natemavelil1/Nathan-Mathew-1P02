@@ -1,0 +1,65 @@
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.row-padding img {margin-bottom: 12px}
+
+/** THe nav bar **/
+#myNavbar {
+  background-color: #000;
+  opacity: 0.7;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  position:fixed;
+  font-size:30px;
+  text-align:center;
+  font-family: "Century Gothic",CenturyGothic,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  z-index: +1000;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+/* Actual bar for the nav */
+.bar {
+  width:100%;
+  overflow:hidden;
+  display:inline-block;
+  width:auto;
+}
+
+/* The button items in the nav and the hover for the buttons*/
+.barItem {
+  padding:5px 10px;
+  float:left;
+  width:auto;
+}
+.barItem:hover {
+  background-color: #879862;
+}
+
+/* The buttons in the navbar */
+.button {
+  padding:6px 20px;
+  vertical-align:middle;
+  text-align:center;
+}
+
+
+#content1 {height: 1000px; width: 700px; float:left; left: 2000px}
+
+#content2 {height: 1000px; width: 700px; float:right; right: 2000px;}
+
+.content {max-width:980px;margin:auto}
+
+.center{text-align:center}
+.xlarge{font-size:24px}
+.opacity-min{opacity:0.75}
+
+.padding-32{padding-top:32px;padding-bottom:32px}
+
+.button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.half{width:49.99999%}
+
+.padding-64{padding-top:64px;padding-bottom:64px}
+.large{font-size:18px}
