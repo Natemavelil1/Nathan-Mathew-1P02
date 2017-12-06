@@ -14,6 +14,14 @@ h1
   margin-left: 36%;
 }
 
+#aboutMe img
+{
+  width: 100em;
+  height: 30em;
+  margin: auto;
+  display: block;
+}
+
 html, body
 {
   margin:0;
@@ -38,6 +46,12 @@ html, body
   padding-top:20px;
   padding-bottom:20px;
   font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+.bar button a
+{
+  text-decoration: none;
+  color: white;
 }
 
 /* Actual bar for the nav */
@@ -82,7 +96,12 @@ html, body
   font-weight: bold;
 }
 
-#footer
+#footer p
+{
+  text-align: center;
+}
+
+#timer
 {
   text-align: center;
 }
