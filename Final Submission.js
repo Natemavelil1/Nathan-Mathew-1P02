@@ -25,3 +25,8 @@ function timer()
     //Making sure timer reloads every 200 milliseconds
     var timer_start = setTimeout(timer, 200);
 }
+
+function getData()
+{
+  
+}
