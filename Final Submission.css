@@ -1,0 +1,112 @@
+html
+{
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+h1
+{
+  letter-spacing: 6px
+}
+
+#header img
+{
+  width: 30%;
+  margin-left: 36%;
+}
+
+#aboutMe img
+{
+  width: 100em;
+  height: 30em;
+  margin: auto;
+  display: block;
+}
+
+html, body
+{
+  margin:0;
+  padding:0;
+}
+
+/** THe nav bar **/
+#myNavbar
+{
+  background-color: #000;
+  opacity: 0.6;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  position:fixed;
+  font-size:30px;
+  text-align:center;
+  font-style: normal;
+  font-variant: normal;
+  z-index: +1000;
+  top: 85%;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+.bar button a
+{
+  text-decoration: none;
+  color: white;
+}
+
+/* Actual bar for the nav */
+.bar
+{
+  width:100%;
+  overflow:hidden;
+  display:inline-block;
+  width:auto;
+}
+
+.content
+{
+  left: 0%;
+}
+
+#photoGrid
+{
+  left: 0%;
+  display: block;
+}
+
+.button
+{
+  border:none;
+  display:inline-block;
+  outline:0;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#footer p
+{
+  text-align: center;
+}
+
+#footer a
+{
+  text-align: center;
+}
+
+#timer
+{
+  text-align: center;
+}
